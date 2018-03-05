@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tenacity.free</groupId>
+    <artifactId>tenacity-free</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>tenacity-free-mq</artifactId>
+  <packaging>pom</packaging>
+  <distributionManagement>
+    <site>
+      <id>website</id>
+      <url>scp://webhost.company.com/www/website</url>
+    </site>
+  </distributionManagement>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <modules>
+    <module>tenacity-free-mq-kafka</module>
+    <module>tenacity-free-mq-activemq</module>
+    <module>tenacity-free-mq-rabbitmq</module>
+  </modules>
+</project>

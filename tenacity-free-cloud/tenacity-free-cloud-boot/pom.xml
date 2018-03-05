@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tenacity.free</groupId>
+    <artifactId>tenacity-free-cloud</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>tenacity-free-cloud-boot</artifactId>
+  <packaging>pom</packaging>
+  <distributionManagement>
+    <site>
+      <id>website</id>
+      <url>scp://webhost.company.com/www/website</url>
+    </site>
+  </distributionManagement>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <modules>
+    <module>tenacity-free-cloud-boot-mybatis</module>
+    <module>tenacity-free-cloud-boot-hibernate</module>
+    <module>tenacity-free-cloud-boot-redis</module>
+    <module>tenacity-free-cloud-boot-mongodb</module>
+    <module>tenacity-free-cloud-boot-rabbitmq</module>
+    <module>tenacity-free-cloud-boot-kafka</module>
+    <module>tenacity-free-cloud-boot-zookeeper</module>
+    <module>tenacity-free-cloud-boot-dubbo</module>
+    <module>tenacity-free-cloud-boot-base</module>
+    <module>tenacity-free-cloud-boot-activemq</module>
+  </modules>
+</project>
