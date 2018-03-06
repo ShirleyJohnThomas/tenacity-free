@@ -44,8 +44,8 @@ public class IdGenUtils {
 
 	    /**
 	     * @author: free.zhang
-	     * @datetime: 使用SecureRandom随机生成Long.
-	     * @desc: TODO
+	     * @datetime: 2018年1月13日 下午6:18:13
+	     * @desc: 使用SecureRandom随机生成Long.
 	     * @return
 	     */
 	    public static long randomLong() {

@@ -25,7 +25,7 @@ import net.sf.json.JSONObject;
  * @file_name: JsonUtils.java
  * @author: free.zhang
  * @datetime: 2018年1月13日 下午6:32:26
- * @desc: TODO
+ * @desc: json工具类
  */
 public class JsonUtils {
 

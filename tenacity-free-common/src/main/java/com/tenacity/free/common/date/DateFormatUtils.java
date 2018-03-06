@@ -33,8 +33,12 @@ public class DateFormatUtils {
 
     private static ThreadLocal<SimpleDateFormat> dateFormatLocal = new ThreadLocal<>();
     private static final SimpleDateFormat DateTimeFormater = new SimpleDateFormat(PUBLIC_DATE_FORMAT_YMDHMS);
-    private static final String DateTimeFormaterArray[] = new String[]{PUBLIC_DATE_FORMAT_YMDHMS, PUBLIC_DATE_FORMAT_YMD, PUBLIC_DATE_FORMAT_YMDHM,
-            PUBLIC_DATE_FORMAT_YM, PUBLIC_DATE_FORMAT_Y};
+    private static final String DateTimeFormaterArray[] = new String[]{
+														    		PUBLIC_DATE_FORMAT_YMDHMS, 
+														    		PUBLIC_DATE_FORMAT_YMD, 
+														    		PUBLIC_DATE_FORMAT_YMDHM,
+														            PUBLIC_DATE_FORMAT_YM, 
+														            PUBLIC_DATE_FORMAT_Y};
 
     /**
      * @param pattern
