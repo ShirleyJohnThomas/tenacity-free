@@ -90,3 +90,5 @@
 /tenacity-free-spring/tenacity-free-spring-redis/.settings
 /tenacity-free-spring/tenacity-free-spring-zookeeper/target
 /tenacity-free-spring/tenacity-free-spring-zookeeper/.settings
+/tenacity-free-zookeeper/target
+/tenacity-free-zookeeper/.settings
