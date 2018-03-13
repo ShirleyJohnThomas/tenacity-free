@@ -1,6 +1,7 @@
 package com.tenacity.free.common.log;
 
 import com.google.gson.JsonObject;
+import com.tenacity.free.common.date.DateFormatUtils;
 import com.tenacity.free.common.json.JsonUtils;
 
 import net.sf.json.JSONObject;
@@ -45,7 +46,7 @@ public class LoggerUtils {
      * @return: void
      */
     public static void loggerErrorInfo(Logger logger, String className, String methodName, String message, JsonObject paramJson) {
-        String content = MessageFormat.format("{0} Class {1} method exception: {2}", className, methodName, message);
+        String content = MessageFormat.format("{3} {0} Class {1} method exception: {2}", className, methodName, message,DateFormatUtils.formatNowDate());
 
         if (null != paramJson) {
             content += " param[ " + JsonUtils.toJSONString(paramJson) + " ]";
@@ -78,7 +79,7 @@ public class LoggerUtils {
      * @date 2018/3/2 13:54
      */
     public static void loggerInfo(Logger logger, String className, String methodName, String message, JSONObject paramJson) {
-        String content = MessageFormat.format("{0} Class {1} method message: {2}", className, methodName, message);
+        String content = MessageFormat.format("{3} {0} Class {1} method message: {2}", className, methodName, message,DateFormatUtils.formatNowDate());
 
         if (null != paramJson) {
             content += " param[ " + JsonUtils.toJSONString(paramJson) + " ]";
