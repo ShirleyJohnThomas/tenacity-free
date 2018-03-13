@@ -68,5 +68,6 @@
     <module>tenacity-free-design</module>
     <module>tenacity-free-arithmetic</module>
     <module>tenacity-free-framework</module>
+    <module>tenacity-free-zookeeper</module>
   </modules>
 </project>
